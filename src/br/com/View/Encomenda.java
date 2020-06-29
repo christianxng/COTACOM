@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Encomenda extends javax.swing.JFrame {
 
     /**
@@ -114,11 +111,11 @@ public class Encomenda extends javax.swing.JFrame {
         getContentPane().add(jFormattedTextField2);
         jFormattedTextField2.setBounds(170, 50, 130, 20);
 
-        jLabel4.setText("* Emissão");
+        jLabel4.setText("* Emissï¿½o");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(170, 30, 50, 14);
 
-        jLabel6.setText("* Número");
+        jLabel6.setText("* Nï¿½mero");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 30, 50, 14);
 
@@ -128,7 +125,7 @@ public class Encomenda extends javax.swing.JFrame {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(10, 10, 140, 18);
 
-        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField3);
         jFormattedTextField3.setBounds(10, 170, 130, 20);
 
@@ -148,7 +145,7 @@ public class Encomenda extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(290, 150, 50, 14);
 
-        jLabel14.setText("Observação");
+        jLabel14.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel14);
         jLabel14.setBounds(10, 200, 80, 14);
 
@@ -180,20 +177,20 @@ public class Encomenda extends javax.swing.JFrame {
         getContentPane().add(jFormattedTextField5);
         jFormattedTextField5.setBounds(310, 50, 130, 20);
 
-        jLabel15.setText("* Previsão");
+        jLabel15.setText("* Previsï¿½o");
         getContentPane().add(jLabel15);
         jLabel15.setBounds(310, 30, 60, 14);
 
-        jFormattedTextField6.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField6.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField6);
         jFormattedTextField6.setBounds(150, 170, 130, 20);
 
-        jLabel16.setText("* Unitário");
+        jLabel16.setText("* Unitï¿½rio");
         getContentPane().add(jLabel16);
         jLabel16.setBounds(150, 150, 80, 14);
 
         jFormattedTextField7.setEditable(false);
-        jFormattedTextField7.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField7.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField7);
         jFormattedTextField7.setBounds(10, 400, 140, 20);
 
@@ -209,20 +206,20 @@ public class Encomenda extends javax.swing.JFrame {
         getContentPane().add(jTextField4);
         jTextField4.setBounds(10, 100, 590, 20);
 
-        jLabel18.setText("Observação");
+        jLabel18.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel18);
         jLabel18.setBounds(10, 80, 80, 14);
 
         jFormattedTextField8.setEditable(false);
-        jFormattedTextField8.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField8.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField8);
         jFormattedTextField8.setBounds(460, 400, 140, 20);
 
-        jLabel19.setText("Total Líquido");
+        jLabel19.setText("Total Lï¿½quido");
         getContentPane().add(jLabel19);
         jLabel19.setBounds(460, 380, 100, 14);
 
-        jFormattedTextField9.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField9.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField9);
         jFormattedTextField9.setBounds(160, 400, 140, 20);
 
@@ -234,7 +231,7 @@ public class Encomenda extends javax.swing.JFrame {
         getContentPane().add(jLabel21);
         jLabel21.setBounds(310, 380, 80, 14);
 
-        jFormattedTextField10.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField10.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField10);
         jFormattedTextField10.setBounds(310, 400, 140, 20);
 

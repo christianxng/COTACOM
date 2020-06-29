@@ -5,10 +5,6 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
 public class Fornecedor extends javax.swing.JFrame {
 
     /**
@@ -72,7 +68,7 @@ public class Fornecedor extends javax.swing.JFrame {
         getContentPane().add(jSpinner1);
         jSpinner1.setBounds(10, 30, 90, 20);
 
-        jLabel6.setText("* Código");
+        jLabel6.setText("* Cï¿½digo");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 10, 50, 14);
 
@@ -110,7 +106,7 @@ public class Fornecedor extends javax.swing.JFrame {
         getContentPane().add(jTextField3);
         jTextField3.setBounds(10, 130, 430, 20);
 
-        jLabel4.setText("Observação");
+        jLabel4.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(10, 110, 80, 14);
 

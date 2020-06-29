@@ -7,10 +7,7 @@ package br.com.View;
 
 import br.com.Controller.Login_acesso;
 
-/**
- *
- * @author thiag
- */
+
 public class Login extends javax.swing.JFrame {
 
     /**
@@ -72,7 +69,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(btSair);
         btSair.setBounds(350, 70, 70, 30);
 
-        lbUsuario.setText("Usuário:");
+        lbUsuario.setText("Usuï¿½rio:");
         getContentPane().add(lbUsuario);
         lbUsuario.setBounds(10, 10, 50, 14);
 

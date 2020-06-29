@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Pessoa extends javax.swing.JFrame {
 
     /**
@@ -78,7 +75,7 @@ public class Pessoa extends javax.swing.JFrame {
         getContentPane().add(jLabel3);
         jLabel3.setBounds(110, 10, 80, 14);
 
-        jLabel6.setText("* Código");
+        jLabel6.setText("* Cï¿½digo");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 10, 50, 14);
 
@@ -122,7 +119,7 @@ public class Pessoa extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(290, 60, 80, 14);
 
-        jLabel7.setText("Observação");
+        jLabel7.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel7);
         jLabel7.setBounds(10, 110, 80, 14);
 

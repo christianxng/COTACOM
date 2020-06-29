@@ -5,10 +5,6 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
 public class CotacaoRetorno extends javax.swing.JFrame {
 
     /**
@@ -60,7 +56,7 @@ public class CotacaoRetorno extends javax.swing.JFrame {
         
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Retorno da Cotação");
+        setTitle("Retorno da Cotaï¿½ï¿½o");
         setBackground(new java.awt.Color(102, 255, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setIconImages(null);
@@ -159,12 +155,12 @@ public class CotacaoRetorno extends javax.swing.JFrame {
         getContentPane().add(jLabel15);
         jLabel15.setBounds(470, 140, 110, 14);
 
-        jFormattedTextField1.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.00"))));
+        jFormattedTextField1.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.00"))));
         getContentPane().add(jFormattedTextField1);
         jFormattedTextField1.setBounds(470, 160, 130, 20);
 
         jFormattedTextField2.setEditable(false);
-        jFormattedTextField2.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.00"))));
+        jFormattedTextField2.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.00"))));
         getContentPane().add(jFormattedTextField2);
         jFormattedTextField2.setBounds(330, 160, 130, 20);
 
@@ -176,11 +172,11 @@ public class CotacaoRetorno extends javax.swing.JFrame {
         getContentPane().add(jTextField4);
         jTextField4.setBounds(10, 210, 590, 20);
 
-        jLabel3.setText("Observação");
+        jLabel3.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(10, 190, 80, 14);
 
-        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.00"))));
+        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.00"))));
         getContentPane().add(jFormattedTextField3);
         jFormattedTextField3.setBounds(10, 390, 140, 20);
 
@@ -188,11 +184,11 @@ public class CotacaoRetorno extends javax.swing.JFrame {
         getContentPane().add(jLabel16);
         jLabel16.setBounds(10, 370, 110, 14);
 
-        jFormattedTextField4.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.00"))));
+        jFormattedTextField4.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.00"))));
         getContentPane().add(jFormattedTextField4);
         jFormattedTextField4.setBounds(160, 390, 140, 20);
 
-        jLabel17.setText("* Unitário");
+        jLabel17.setText("* Unitï¿½rio");
         getContentPane().add(jLabel17);
         jLabel17.setBounds(160, 370, 110, 14);
 
@@ -201,11 +197,11 @@ public class CotacaoRetorno extends javax.swing.JFrame {
         jLabel18.setBounds(310, 370, 110, 14);
 
         jFormattedTextField5.setEditable(false);
-        jFormattedTextField5.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.00"))));
+        jFormattedTextField5.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.00"))));
         getContentPane().add(jFormattedTextField5);
         jFormattedTextField5.setBounds(310, 390, 140, 20);
 
-        jFormattedTextField6.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.00"))));
+        jFormattedTextField6.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.00"))));
         getContentPane().add(jFormattedTextField6);
         jFormattedTextField6.setBounds(460, 390, 140, 20);
 
@@ -213,7 +209,7 @@ public class CotacaoRetorno extends javax.swing.JFrame {
         getContentPane().add(jLabel19);
         jLabel19.setBounds(460, 370, 110, 14);
 
-        jLabel4.setText("Observação");
+        jLabel4.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(10, 420, 80, 14);
 

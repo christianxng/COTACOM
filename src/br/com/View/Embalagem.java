@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Embalagem extends javax.swing.JFrame {
 
     /**
@@ -70,11 +67,11 @@ public class Embalagem extends javax.swing.JFrame {
         getContentPane().add(jSpinner1);
         jSpinner1.setBounds(10, 30, 90, 20);
 
-        jLabel3.setText("* Descrição");
+        jLabel3.setText("* Descriï¿½ï¿½o");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(110, 10, 80, 14);
 
-        jLabel6.setText("* Código");
+        jLabel6.setText("* Cï¿½digo");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 10, 50, 14);
 
@@ -86,7 +83,7 @@ public class Embalagem extends javax.swing.JFrame {
         getContentPane().add(jTextField2);
         jTextField2.setBounds(110, 30, 330, 20);
 
-        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField3);
         jFormattedTextField3.setBounds(10, 80, 90, 20);
 

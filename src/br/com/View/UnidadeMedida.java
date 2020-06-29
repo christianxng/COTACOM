@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class UnidadeMedida extends javax.swing.JFrame {
 
     /**
@@ -68,11 +65,11 @@ public class UnidadeMedida extends javax.swing.JFrame {
         getContentPane().add(jSpinner1);
         jSpinner1.setBounds(10, 30, 90, 20);
 
-        jLabel3.setText("* Descrição");
+        jLabel3.setText("* Descriï¿½ï¿½o");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(110, 10, 80, 14);
 
-        jLabel6.setText("* Código");
+        jLabel6.setText("* Cï¿½digo");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 10, 50, 14);
 
@@ -92,7 +89,7 @@ public class UnidadeMedida extends javax.swing.JFrame {
         getContentPane().add(jTextField3);
         jTextField3.setBounds(360, 30, 80, 20);
 
-        jLabel4.setText("* Símbolo");
+        jLabel4.setText("* Sï¿½mbolo");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(360, 10, 80, 14);
 

@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class AssimilaEmbalagem extends javax.swing.JFrame {
 
     /**

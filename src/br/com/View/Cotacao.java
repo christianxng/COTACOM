@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Cotacao extends javax.swing.JFrame {
 
     /**
@@ -51,7 +48,7 @@ public class Cotacao extends javax.swing.JFrame {
         
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Cotação");
+        setTitle("Cotaï¿½ï¿½o");
         setBackground(new java.awt.Color(102, 255, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setIconImages(null);
@@ -101,7 +98,7 @@ public class Cotacao extends javax.swing.JFrame {
         getContentPane().add(jFormattedTextField2);
         jFormattedTextField2.setBounds(170, 50, 110, 20);
 
-        jLabel3.setText("Observação");
+        jLabel3.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(290, 30, 80, 14);
 
@@ -109,7 +106,7 @@ public class Cotacao extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(170, 30, 50, 14);
 
-        jLabel6.setText("* Número");
+        jLabel6.setText("* Nï¿½mero");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 30, 50, 14);
 
@@ -123,11 +120,11 @@ public class Cotacao extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel8.setText("Dados da Cotação");
+        jLabel8.setText("Dados da Cotaï¿½ï¿½o");
         getContentPane().add(jLabel8);
         jLabel8.setBounds(10, 10, 140, 18);
 
-        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField3);
         jFormattedTextField3.setBounds(10, 120, 110, 20);
 
@@ -143,7 +140,7 @@ public class Cotacao extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(130, 100, 50, 14);
 
-        jLabel14.setText("Observação");
+        jLabel14.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel14);
         jLabel14.setBounds(10, 150, 80, 14);
 

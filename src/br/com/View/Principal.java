@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Principal extends javax.swing.JFrame {
 private static Principal instancia;
 
@@ -47,9 +44,9 @@ private static Principal instancia;
         setTitle("Cotacom");
         setForeground(java.awt.Color.lightGray);
 
-        btRequisicao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones/Requisição.png"))); // NOI18N
-        btRequisicao.setText("Requisições");
-        btRequisicao.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones_desabilitados/requisição.png"))); // NOI18N
+        btRequisicao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones/Requisiï¿½ï¿½o.png"))); // NOI18N
+        btRequisicao.setText("Requisiï¿½ï¿½es");
+        btRequisicao.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones_desabilitados/requisiï¿½ï¿½o.png"))); // NOI18N
         btRequisicao.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btRequisicao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -57,9 +54,9 @@ private static Principal instancia;
             }
         });
 
-        btCotacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones/Cotação.png"))); // NOI18N
-        btCotacao.setText("Cotações");
-        btCotacao.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones_desabilitados/cotação.png"))); // NOI18N
+        btCotacao.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones/Cotaï¿½ï¿½o.png"))); // NOI18N
+        btCotacao.setText("Cotaï¿½ï¿½es");
+        btCotacao.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones_desabilitados/cotaï¿½ï¿½o.png"))); // NOI18N
         btCotacao.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btCotacao.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -118,7 +115,7 @@ private static Principal instancia;
                 .addContainerGap(95, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Lançamentos", jPanel1);
+        jTabbedPane1.addTab("Lanï¿½amentos", jPanel1);
 
         btProduto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones/Produto.png"))); // NOI18N
         btProduto.setText("Produtos");
@@ -171,7 +168,7 @@ private static Principal instancia;
         });
 
         btUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones/usuario.png"))); // NOI18N
-        btUsuario.setText("Usuários");
+        btUsuario.setText("Usuï¿½rios");
         btUsuario.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/Imagens/icones_desabilitados/usuario.png"))); // NOI18N
         btUsuario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         btUsuario.addActionListener(new java.awt.event.ActionListener() {
@@ -232,7 +229,7 @@ private static Principal instancia;
             .addGap(0, 205, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Relatórios", jPanel3);
+        jTabbedPane1.addTab("Relatï¿½rios", jPanel3);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -305,7 +302,7 @@ private static Principal instancia;
         telaUnidadesMedida.setVisible(true);
     }//GEN-LAST:event_btUnidadeActionPerformed
 
-    public static Principal getInstance(){ // MÉTODO QUE VERIFICA SE A INSTANCIA JÁ ESTÁ CRIADA (SINGLETON)
+    public static Principal getInstance(){ // Mï¿½TODO QUE VERIFICA SE A INSTANCIA Jï¿½ ESTï¿½ CRIADA (SINGLETON)
         if(instancia==null)
             instancia = new Principal();        
         return instancia;

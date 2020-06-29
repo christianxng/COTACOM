@@ -8,10 +8,7 @@ import javax.swing.JButton;
 import java.awt.Toolkit;
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author thiag
- */
+
 public class Produtos extends javax.swing.JFrame {
 
     /**
@@ -78,10 +75,10 @@ public class Produtos extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                { new Integer(1), "Descrição"}
+                { new Integer(1), "Descriï¿½ï¿½o"}
             },
             new String [] {
-                "Código", "Descrição"
+                "Cï¿½digo", "Descriï¿½ï¿½o"
             }
         ) {
             Class[] types = new Class [] {

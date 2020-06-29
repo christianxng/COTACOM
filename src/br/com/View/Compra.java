@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Compra extends javax.swing.JFrame {
 
     /**
@@ -118,7 +115,7 @@ public class Compra extends javax.swing.JFrame {
         getContentPane().add(jFormattedTextField2);
         jFormattedTextField2.setBounds(170, 50, 110, 20);
 
-        jLabel3.setText("Observação");
+        jLabel3.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(170, 80, 80, 14);
 
@@ -130,7 +127,7 @@ public class Compra extends javax.swing.JFrame {
         getContentPane().add(jLabel5);
         jLabel5.setBounds(450, 30, 130, 14);
 
-        jLabel6.setText("* Número");
+        jLabel6.setText("* Nï¿½mero");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 30, 50, 14);
 
@@ -152,7 +149,7 @@ public class Compra extends javax.swing.JFrame {
         getContentPane().add(jLabel8);
         jLabel8.setBounds(10, 10, 140, 18);
 
-        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField3);
         jFormattedTextField3.setBounds(10, 170, 110, 20);
 
@@ -180,7 +177,7 @@ public class Compra extends javax.swing.JFrame {
         getContentPane().add(jLabel11);
         jLabel11.setBounds(250, 150, 50, 14);
 
-        jLabel14.setText("Observação");
+        jLabel14.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel14);
         jLabel14.setBounds(10, 200, 80, 14);
 
@@ -208,11 +205,11 @@ public class Compra extends javax.swing.JFrame {
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(10, 250, 590, 100);
 
-        jFormattedTextField5.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField5.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField5);
         jFormattedTextField5.setBounds(130, 170, 110, 20);
 
-        jLabel10.setText("* Unitário");
+        jLabel10.setText("* Unitï¿½rio");
         getContentPane().add(jLabel10);
         jLabel10.setBounds(130, 150, 80, 14);
 
@@ -225,7 +222,7 @@ public class Compra extends javax.swing.JFrame {
         jLabel12.setBounds(430, 150, 70, 14);
 
         jFormattedTextField7.setEditable(false);
-        jFormattedTextField7.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField7.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField7);
         jFormattedTextField7.setBounds(10, 380, 140, 20);
 
@@ -234,15 +231,15 @@ public class Compra extends javax.swing.JFrame {
         jLabel17.setBounds(10, 360, 100, 14);
 
         jFormattedTextField8.setEditable(false);
-        jFormattedTextField8.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField8.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField8);
         jFormattedTextField8.setBounds(460, 380, 140, 20);
 
-        jLabel19.setText("Total Líquido");
+        jLabel19.setText("Total Lï¿½quido");
         getContentPane().add(jLabel19);
         jLabel19.setBounds(460, 360, 100, 14);
 
-        jFormattedTextField9.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField9.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField9);
         jFormattedTextField9.setBounds(160, 380, 140, 20);
 
@@ -254,7 +251,7 @@ public class Compra extends javax.swing.JFrame {
         getContentPane().add(jLabel21);
         jLabel21.setBounds(310, 360, 80, 14);
 
-        jFormattedTextField10.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField10.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField10);
         jFormattedTextField10.setBounds(310, 380, 140, 20);
 

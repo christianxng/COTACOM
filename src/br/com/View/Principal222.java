@@ -6,9 +6,7 @@ import br.com.Model.Requisicao;
 
 import java.util.List;
 
-/**
- * @author Christian Rodrigues - 3629
- */
+
 
 public class Principal222 {
 

@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Encomendas extends javax.swing.JFrame {
 
     /**
@@ -79,10 +76,10 @@ public class Encomendas extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                { new Integer(1), "Descrição"}
+                { new Integer(1), "Descriï¿½ï¿½o"}
             },
             new String [] {
-                "Código", "Descrição"
+                "Cï¿½digo", "Descriï¿½ï¿½o"
             }
         ) {
             Class[] types = new Class [] {

@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class CotacaoFornecedor extends javax.swing.JFrame {
 
     /**
@@ -43,7 +40,7 @@ public class CotacaoFornecedor extends javax.swing.JFrame {
         
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Fornecedores da Cotação");
+        setTitle("Fornecedores da Cotaï¿½ï¿½o");
         setBackground(new java.awt.Color(102, 255, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setIconImages(null);

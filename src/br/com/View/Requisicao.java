@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Requisicao extends javax.swing.JFrame {
 
     /**
@@ -59,7 +56,7 @@ public class Requisicao extends javax.swing.JFrame {
         
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Requisição");
+        setTitle("Requisiï¿½ï¿½o");
         setBackground(new java.awt.Color(102, 255, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setIconImages(null);
@@ -96,7 +93,7 @@ public class Requisicao extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel2.setText("Itens da Requisição");
+        jLabel2.setText("Itens da Requisiï¿½ï¿½o");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(10, 130, 140, 18);
 
@@ -108,7 +105,7 @@ public class Requisicao extends javax.swing.JFrame {
         getContentPane().add(jFormattedTextField2);
         jFormattedTextField2.setBounds(170, 50, 110, 20);
 
-        jLabel3.setText("Observação");
+        jLabel3.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(170, 80, 80, 14);
 
@@ -116,11 +113,11 @@ public class Requisicao extends javax.swing.JFrame {
         getContentPane().add(jLabel4);
         jLabel4.setBounds(170, 30, 50, 14);
 
-        jLabel5.setText("* Responsável");
+        jLabel5.setText("* Responsï¿½vel");
         getContentPane().add(jLabel5);
         jLabel5.setBounds(450, 30, 90, 14);
 
-        jLabel6.setText("* Número");
+        jLabel6.setText("* Nï¿½mero");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 30, 50, 14);
 
@@ -138,11 +135,11 @@ public class Requisicao extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(102, 102, 102));
-        jLabel8.setText("Dados da Requisição");
+        jLabel8.setText("Dados da Requisiï¿½ï¿½o");
         getContentPane().add(jLabel8);
         jLabel8.setBounds(10, 10, 140, 18);
 
-        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("¤#,##0.0000"))));
+        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.NumberFormatter(new java.text.DecimalFormat("ï¿½#,##0.0000"))));
         getContentPane().add(jFormattedTextField3);
         jFormattedTextField3.setBounds(10, 170, 110, 20);
 
@@ -178,7 +175,7 @@ public class Requisicao extends javax.swing.JFrame {
         getContentPane().add(jLabel13);
         jLabel13.setBounds(490, 150, 110, 14);
 
-        jLabel14.setText("Observação");
+        jLabel14.setText("Observaï¿½ï¿½o");
         getContentPane().add(jLabel14);
         jLabel14.setBounds(10, 200, 80, 14);
 

@@ -5,10 +5,7 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
+
 public class Requisicoes extends javax.swing.JFrame {
 
     /**
@@ -39,7 +36,7 @@ public class Requisicoes extends javax.swing.JFrame {
         
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Requisições");
+        setTitle("Requisiï¿½ï¿½es");
         setBackground(new java.awt.Color(102, 255, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setIconImages(null);
@@ -91,10 +88,10 @@ public class Requisicoes extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                { new Integer(1), "Descrição"}
+                { new Integer(1), "Descriï¿½ï¿½o"}
             },
             new String [] {
-                "Código", "Descrição"
+                "Cï¿½digo", "Descriï¿½ï¿½o"
             }
         ) {
             Class[] types = new Class [] {

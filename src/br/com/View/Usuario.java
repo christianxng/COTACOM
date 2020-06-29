@@ -5,10 +5,6 @@
  */
 package br.com.View;
 
-/**
- *
- * @author thiag
- */
 public class Usuario extends javax.swing.JFrame {
 
     /**
@@ -46,7 +42,7 @@ public class Usuario extends javax.swing.JFrame {
         
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Usuário");
+        setTitle("Usuï¿½rio");
         setBackground(new java.awt.Color(102, 255, 102));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setIconImages(null);
@@ -74,7 +70,7 @@ public class Usuario extends javax.swing.JFrame {
         getContentPane().add(jSpinner1);
         jSpinner1.setBounds(10, 30, 90, 20);
 
-        jLabel6.setText("* Código");
+        jLabel6.setText("* Cï¿½digo");
         getContentPane().add(jLabel6);
         jLabel6.setBounds(10, 10, 50, 14);
 
